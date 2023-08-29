@@ -168,6 +168,11 @@ main{
     text-align: center;
 }
 
+.title{
+    text-align: center;
+    margin-bttom: 4rem;
+}
+
 .underline{
     width: 6rem;
     height: 0.25rem;
@@ -194,5 +199,26 @@ main{
     object-fit: cover;
     border-top-right-radius: var(--radius);
     border-top-left-radius: var(--radius);
+}
+
+.tour-info{
+    display: flex;
+    justify-content: space-betwen;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.tour-info h4{
+    margin-bottom: 0;
+}
+
+.single-tour button{
+    background: transparent;
+    border-color: transparent;
+    text-transform: captalize;
+    color: var(--clr-primary-5);
+    font-size: 1rem;
+    cursor: pointer;
+    padding-left: 0.25rem;
 }
 
