@@ -150,5 +150,32 @@ p{
     text-transform: captalize;
     color: var(--clr-white);
     litter-spacing: var(--spacing);
-    border-radius: var(--radius);
+    border-color: trannsparent;
+    cursor: pointer;
+    margin-top: 2rem;
+    font-size: 1.2rem;    
+}
+
+/* Tours */
+
+main{
+    width: 90vw;
+    max-width: var(--fixed-width);
+    margin: 5rem auto;
+}
+
+.loading{
+    text-align: center;
+}
+
+.underline{
+    width: 6rem;
+    height: 0.25rem;
+    background: var(--clr-primary-5);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.single-tour{
+    
 }
