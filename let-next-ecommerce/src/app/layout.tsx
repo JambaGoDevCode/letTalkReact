@@ -20,6 +20,8 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: 'Next JS Ecommerce aplication',
   description: 'A simple aplication whith Next JS for portifolio',
+  applicationName: 'Ecommerce arteyetu',
+  authors:[{name:'João Jamba'}],
 }
 
 export default function RootLayout({
