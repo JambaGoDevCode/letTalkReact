@@ -1,4 +1,4 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 
 const Tour = ({id, image, info, name, price, removeTour}) => {
     const [ readMore, setReadMore ] = useState(false);
